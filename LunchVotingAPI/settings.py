@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'employee.apps.EmployeeConfig',
     'restaurant.apps.RestaurantConfig',
     'django_cleanup.apps.CleanupConfig',
-	'drf_yasg',
+    'drf_yasg',
 ]
 
 REST_FRAMEWORK = {
