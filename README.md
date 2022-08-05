@@ -1,6 +1,6 @@
 # DjangoRestAPI
 
-QUESTION
+QUESTION\
 Company needs internal service for its’ employees which helps them to make a decision
 on lunch place.
 Each restaurant will be uploading menus using the system every day over API
@@ -9,7 +9,7 @@ implemented
 There are users which did not update app to the latest version and backend has to support both
 versions.
 Mobile app always sends build version in headers.
-Needed API’s:
+Needed API’s:\
 o Authentication
 o Creating restaurant
 o Uploading menu for restaurant (There should be a menu for each day)
@@ -19,47 +19,47 @@ o Voting for restaurant menu (Old version api accepted one menu, New one accepts
 menus with respective points (1 to 3)
 o Getting results for current day
 
-TECHNOLOGIES
-Python3
-DRF
-SQLite
+TECHNOLOGIES\
+Python3\
+DRF\
+SQLite\
 
-RUNNING THE PROJECT
-sudo docker-compose down
-$ sudo docker-compose build
-$ sudo docker-compose up --detach
+RUNNING THE PROJECT\
+sudo docker-compose down\
+$ sudo docker-compose build\
+$ sudo docker-compose up --detach\
 
 
 DOCUMENTATION OF API
 
-I have Created API Documentation with Swagger:
+I have Created API Documentation with Swagger:\
 
-After launch of the api, to view the documentation
-     go to: http://localhost:8000/swagger/
+After launch of the api, to view the documentation\
+     go to: http://localhost:8000/swagger/\
 
-Default admin
+Default admin\
 
-username: admin
+username: admin\
 
-password: lunchapi
+password: lunchapi\
 
-username : mindtale
+username : mindtale\
 
-password : lunchapi
+password : lunchapi\
 
 
-All Employees
-username:  employee1
-password:   lunchapi
+All Employees\
+username:  employee1\
+password:   lunchapi\
 
-username:  employee2
-password:   lunchapi
+username:  employee2\
+password:   lunchapi\
 
-username:  employee3
-password:   lunchapi
-         |
-         upto
-         |
+username:  employee3\
+password:   lunchapi\
+         |  \
+         upto\
+         |\
          
-username:  employee10
-password:   lunchapi
+username:  employee10\
+password:   lunchapi\
