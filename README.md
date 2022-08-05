@@ -41,7 +41,7 @@ TECHNOLOGIES
 RUNNING THE PROJECT
 
 
-     docker pull rotohh/mydjangoapi (pull image from repository to your own computer)
+     docker pull rotohh/mydjangoapi (pull image from repository at https://hub.docker.com/r/rotohh/mydjangoapi/tags to your own computer)
      
      
      docker-compose up     (Then run this)
