@@ -60,7 +60,7 @@ DOCUMENTATION OF API
      
      
 
-Default admin
+Default admin Authentication credentials
 
 
 
@@ -81,7 +81,7 @@ Default admin
 
 
 
-All Employees
+All Employees Authentication credentials
 
 
      username:  employee1
@@ -117,10 +117,10 @@ All Employees
      username:  employee10
      
      
-     URL ACTIONS
+URL ACTIONS
      
      
-http://localhost:8000/admin/     (login as admin page)
+     http://localhost:8000/admin/     (login as admin page)
 
 
      http://localhost:8000/api/v1/employee/   (login as employee)
