@@ -58,6 +58,8 @@ DOCUMENTATION OF API
      After launch of the api, to view the documentation
      go to: http://localhost:8000/swagger/
      
+     or go to: http://localhost:8000/redoc/
+     
      
 
 Default admin Authentication credentials
