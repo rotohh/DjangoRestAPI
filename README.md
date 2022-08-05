@@ -16,49 +16,46 @@ Mobile app always sends build version in headers.
 Needed API’s:
 
 
-o Authentication
-o Creating restaurant
-o Uploading menu for restaurant (There should be a menu for each day)
-o Creating employee
-o Getting current day menu
-o Voting for restaurant menu (Old version api accepted one menu, New one accepts top three
-menus with respective points (1 to 3)
-o Getting results for current day
+     o Authentication
+     o Creating restaurant
+     o Uploading menu for restaurant (There should be a menu for each day)
+     o Creating employee
+     o Getting current day menu
+     o Voting for restaurant menu (Old version api accepted one menu, New one accepts top three
+     menus with respective points (1 to 3)
+     o Getting results for current day
 
 TECHNOLOGIES
 
 
-Python3
+     Python3
+
+     
+     DRF
 
 
-DRF
-
-
-SQLite
+     SQLite
 
 
 
 RUNNING THE PROJECT
 
 
-sudo docker-compose down
-
-
-$ sudo docker-compose build
-
-
-$ sudo docker-compose up --detach
+     docker pull rotohh/mydjangoapi (pull image from repository to your own computer)
+     
+     
+     docker-compose up     (Then run this)
 
 
 
 
 DOCUMENTATION OF API
 
-I have Created API Documentation with Swagger:
+     I have Created API Documentation with Swagger:
 
 
 
-After launch of the api, to view the documentation
+     After launch of the api, to view the documentation
      go to: http://localhost:8000/swagger/
      
      
@@ -67,19 +64,19 @@ Default admin
 
 
 
-username: admin
+     username: admin
 
 
 
-password: lunchapi
+     password: lunchapi
 
 
 
-username : mindtale
+     username : mindtale
 
 
 
-password : lunchapi
+     password : lunchapi
 
 
 
@@ -87,24 +84,24 @@ password : lunchapi
 All Employees
 
 
-username:  employee1
+     username:  employee1
 
 
-password:   lunchapi
-
-
-
-username:  employee2
-
-
-password:   lunchapi
+     password:   lunchapi
 
 
 
-username:  employee3
+     username:  employee2
 
 
-password:   lunchapi
+     password:   lunchapi
+
+
+
+     username:  employee3
+
+
+     password:   lunchapi
 
 
          |  
@@ -117,9 +114,45 @@ password:   lunchapi
          
          
          
-username:  employee10
+     username:  employee10
+     
+     
+     URL ACTIONS
+     
+     
+http://localhost:8000/admin/     (login as admin page)
 
 
-password:   lunchapi
+     http://localhost:8000/api/v1/employee/   (login as employee)
 
 
+     http://localhost:8000/api/v1/logout      (logout users)
+     
+     
+     http://localhost:8000/api/v1/employee-profile/ (look at employee profile)
+     
+     
+     http://localhost:8000/api/v1/employee/3/ (look at employee detail with 3 being identifier id)
+     
+     
+     http://localhost:8000/api/v1/employee-profile/3/ (look at employee profile detail)
+     
+     
+     http://localhost:8000/api/v1/employee-get-menu/ (get menu list)
+     
+     
+     http://localhost:8000/api/v1/restaurant/   (get restaurant names in the list)
+     
+     
+     http://localhost:8000/api/v1/restaurant/1/ (get restaurant detail with 1 being the restaurant identifier)
+     
+     
+     http://localhost:8000/api/v1/restaurant-profile/ (gets restaurant profile list)
+     
+     
+     http://localhost:8000/api/v1/restaurant-menu/1/ (gets menu instances with 1 being the menu identifier)
+
+     http://localhost:8000/swagger/ (The api documentation )
+     
+     
+     http://localhost:8000/redoc/ (Complete project documentation)
